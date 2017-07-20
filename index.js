@@ -288,7 +288,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,102,33);
 		this.btn_2.addEventListener("click", fl_ClickToGoToWebPage_2);
 		
 		function fl_ClickToGoToWebPage_2() {
-			window.open("https://arvin0.github.io/CreateJS-example/web_content/Y04c/Y04c.html", "_blank");
+			window.open("web_content/Y04c/Y04c.html", "_blank");
 		}
 		
 		
@@ -296,7 +296,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,102,33);
 		this.btn_3.addEventListener("click", fl_ClickToGoToWebPage_3);
 		
 		function fl_ClickToGoToWebPage_3() {
-			window.open("https://arvin0.github.io/CreateJS-example/web_content/Y07-8a/Y07-8a.html", "_blank");
+			window.open("web_content/Y07-8a/Y07-8a.html", "_blank");
 		}
 		
 		
