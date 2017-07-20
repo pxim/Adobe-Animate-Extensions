@@ -70,8 +70,8 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib._1089978 = function() {
-	this.initialize(img._1089978);
+(lib.a1089978 = function() {
+	this.initialize(img.a1089978);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1920,1080);
 
@@ -382,7 +382,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,102,33);
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	// 图层 1
-	this.instance = new lib._1089978();
+	this.instance = new lib.a1089978();
 	this.instance.parent = this;
 	this.instance.setTransform(1,0,0.542,0.542);
 
@@ -404,7 +404,7 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/_1089978.jpg", id:"_1089978"},
+		{src:"images/a1089978.jpg", id:"a1089978"},
 		{src:"images/链接按钮1a.png", id:"链接按钮1a"},
 		{src:"images/链接按钮1b.png", id:"链接按钮1b"},
 		{src:"images/链接按钮2a.png", id:"链接按钮2a"},
