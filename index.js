@@ -2,70 +2,9 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.webFontTxtInst = {}; 
-var loadedTypekitCount = 0;
-var loadedGoogleCount = 0;
-var gFontsUpdateCacheList = [];
-var tFontsUpdateCacheList = [];
 lib.ssMetadata = [];
 
 
-
-lib.updateListCache = function (cacheList) {		
-	for(var i = 0; i < cacheList.length; i++) {		
-		if(cacheList[i].cacheCanvas)		
-			cacheList[i].updateCache();		
-	}		
-};		
-
-lib.addElementsToCache = function (textInst, cacheList) {		
-	var cur = textInst;		
-	while(cur != null && cur != exportRoot) {		
-		if(cacheList.indexOf(cur) != -1)		
-			break;		
-		cur = cur.parent;		
-	}		
-	if(cur != exportRoot) {		
-		var cur2 = textInst;		
-		var index = cacheList.indexOf(cur);		
-		while(cur2 != null && cur2 != cur) {		
-			cacheList.splice(index, 0, cur2);		
-			cur2 = cur2.parent;		
-			index++;		
-		}		
-	}		
-	else {		
-		cur = textInst;		
-		while(cur != null && cur != exportRoot) {		
-			cacheList.push(cur);		
-			cur = cur.parent;		
-		}		
-	}		
-};		
-
-lib.gfontAvailable = function(family, totalGoogleCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
-
-	loadedGoogleCount++;		
-	if(loadedGoogleCount == totalGoogleCount) {		
-		lib.updateListCache(gFontsUpdateCacheList);		
-	}		
-};		
-
-lib.tfontAvailable = function(family, totalTypekitCount) {		
-	lib.properties.webfonts[family] = true;		
-	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
-	for(var f = 0; f < txtInst.length; ++f)		
-		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
-
-	loadedTypekitCount++;		
-	if(loadedTypekitCount == totalTypekitCount) {		
-		lib.updateListCache(tFontsUpdateCacheList);		
-	}		
-};
 // symbols:
 
 
@@ -281,14 +220,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,102,33);
 		this.btn_1.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("https://arvin0.github.io/CreateJS-example/web_content/Y04a/Y04a.html", "_blank");
+			window.open("web_content/Y04a/Y04a.html", "_blank");
 		}
 		
 		
 		this.btn_2.addEventListener("click", fl_ClickToGoToWebPage_2);
 		
 		function fl_ClickToGoToWebPage_2() {
-			window.open("https://arvin0.github.io/CreateJS-example/web_content/Y04c/Y04c.html", "_blank");
+			window.open("web_content/Y04c/Y04c.html", "_blank");
 		}
 		
 		
@@ -296,7 +235,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,102,33);
 		this.btn_3.addEventListener("click", fl_ClickToGoToWebPage_3);
 		
 		function fl_ClickToGoToWebPage_3() {
-			window.open("https://arvin0.github.io/CreateJS-example/web_content/Y07-8a/Y07-8a.html", "_blank");
+			window.open("web_content/Y07-8a/Y07-8a.html", "_blank");
 		}
 		
 		
@@ -402,23 +341,22 @@ lib.properties = {
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
-	webfonts: {},
 	manifest: [
-		{src:"images/_1089978.jpg", id:"_1089978"},
-		{src:"images/链接按钮1a.png", id:"链接按钮1a"},
-		{src:"images/链接按钮1b.png", id:"链接按钮1b"},
-		{src:"images/链接按钮2a.png", id:"链接按钮2a"},
-		{src:"images/链接按钮2b.png", id:"链接按钮2b"},
-		{src:"images/链接按钮3a.png", id:"链接按钮3a"},
-		{src:"images/链接按钮3b.png", id:"链接按钮3b"},
-		{src:"images/链接按钮4a.png", id:"链接按钮4a"},
-		{src:"images/链接按钮4b.png", id:"链接按钮4b"},
-		{src:"images/链接按钮5a.png", id:"链接按钮5a"},
-		{src:"images/链接按钮5b.png", id:"链接按钮5b"},
-		{src:"images/链接按钮6a.png", id:"链接按钮6a"},
-		{src:"images/链接按钮6b.png", id:"链接按钮6b"},
-		{src:"images/链接按钮7a.png", id:"链接按钮7a"},
-		{src:"images/链接按钮7b.png", id:"链接按钮7b"}
+		{src:"images/_1089978.jpg?1500522725761", id:"_1089978"},
+		{src:"images/链接按钮1a.png?1500522725761", id:"链接按钮1a"},
+		{src:"images/链接按钮1b.png?1500522725761", id:"链接按钮1b"},
+		{src:"images/链接按钮2a.png?1500522725761", id:"链接按钮2a"},
+		{src:"images/链接按钮2b.png?1500522725761", id:"链接按钮2b"},
+		{src:"images/链接按钮3a.png?1500522725761", id:"链接按钮3a"},
+		{src:"images/链接按钮3b.png?1500522725761", id:"链接按钮3b"},
+		{src:"images/链接按钮4a.png?1500522725761", id:"链接按钮4a"},
+		{src:"images/链接按钮4b.png?1500522725761", id:"链接按钮4b"},
+		{src:"images/链接按钮5a.png?1500522725761", id:"链接按钮5a"},
+		{src:"images/链接按钮5b.png?1500522725761", id:"链接按钮5b"},
+		{src:"images/链接按钮6a.png?1500522725761", id:"链接按钮6a"},
+		{src:"images/链接按钮6b.png?1500522725761", id:"链接按钮6b"},
+		{src:"images/链接按钮7a.png?1500522725761", id:"链接按钮7a"},
+		{src:"images/链接按钮7b.png?1500522725761", id:"链接按钮7b"}
 	],
 	preloads: []
 };
