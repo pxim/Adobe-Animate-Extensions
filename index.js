@@ -281,7 +281,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,102,33);
 		this.btn_1.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("https://arvin0.github.io/CreateJS-example/web_content/Y04a/Y04a.html", "_blank");
+			window.open("web_content/Y04a/Y04a.html", "_blank");
 		}
 		
 		
