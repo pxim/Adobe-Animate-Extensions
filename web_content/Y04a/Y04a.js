@@ -76,118 +76,10 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 p.nominalBounds = new cjs.Rectangle(0,0,486,252);
 
 
-(lib._11 = function() {
-	this.initialize(img._11);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._1 = function() {
-	this.initialize(img._1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._22 = function() {
-	this.initialize(img._22);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._2 = function() {
-	this.initialize(img._2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._33 = function() {
-	this.initialize(img._33);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._3 = function() {
-	this.initialize(img._3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._44 = function() {
-	this.initialize(img._44);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._4 = function() {
-	this.initialize(img._4);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._55 = function() {
-	this.initialize(img._55);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._5 = function() {
-	this.initialize(img._5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._66 = function() {
-	this.initialize(img._66);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._6 = function() {
-	this.initialize(img._6);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._77 = function() {
-	this.initialize(img._77);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._7 = function() {
-	this.initialize(img._7);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
 (lib.游戏第一关 = function() {
 	this.initialize(img.游戏第一关);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,140,49);
-
-
-(lib._88 = function() {
-	this.initialize(img._88);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._8 = function() {
-	this.initialize(img._8);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._99 = function() {
-	this.initialize(img._99);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
-
-
-(lib._9 = function() {
-	this.initialize(img._9);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,81,95);
 
 
 (lib.恭喜您0 = function() {
@@ -212,6 +104,114 @@ p.nominalBounds = new cjs.Rectangle(0,0,205,68);
 	this.initialize(img.归类完成2);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,205,68);
+
+
+(lib.y11 = function() {
+	this.initialize(img.y11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y1 = function() {
+	this.initialize(img.y1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y22 = function() {
+	this.initialize(img.y22);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y2 = function() {
+	this.initialize(img.y2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y33 = function() {
+	this.initialize(img.y33);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y3 = function() {
+	this.initialize(img.y3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y44 = function() {
+	this.initialize(img.y44);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y4 = function() {
+	this.initialize(img.y4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y55 = function() {
+	this.initialize(img.y55);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y5 = function() {
+	this.initialize(img.y5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y66 = function() {
+	this.initialize(img.y66);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y6 = function() {
+	this.initialize(img.y6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y77 = function() {
+	this.initialize(img.y77);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y7 = function() {
+	this.initialize(img.y7);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y88 = function() {
+	this.initialize(img.y88);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y8 = function() {
+	this.initialize(img.y8);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y99 = function() {
+	this.initialize(img.y99);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
+
+
+(lib.y9 = function() {
+	this.initialize(img.y9);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,81,95);
 
 
 (lib.再试一次0 = function() {
@@ -314,7 +314,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._9();
+	this.instance = new lib.y9();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -326,7 +326,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._99();
+	this.instance = new lib.y99();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -338,7 +338,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._88();
+	this.instance = new lib.y88();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -350,7 +350,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._8();
+	this.instance = new lib.y8();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -362,7 +362,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._77();
+	this.instance = new lib.y77();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -374,7 +374,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._7();
+	this.instance = new lib.y7();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -386,7 +386,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._66();
+	this.instance = new lib.y66();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -398,7 +398,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._6();
+	this.instance = new lib.y6();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -410,7 +410,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._55();
+	this.instance = new lib.y55();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -422,7 +422,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._5();
+	this.instance = new lib.y5();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -434,7 +434,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._4();
+	this.instance = new lib.y4();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -446,7 +446,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._44();
+	this.instance = new lib.y44();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -458,7 +458,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._33();
+	this.instance = new lib.y33();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -470,7 +470,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._3();
+	this.instance = new lib.y3();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -482,7 +482,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._2();
+	this.instance = new lib.y2();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -494,7 +494,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._22();
+	this.instance = new lib.y22();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -506,7 +506,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._1();
+	this.instance = new lib.y1();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -518,7 +518,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,200,69);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层 1
-	this.instance = new lib._11();
+	this.instance = new lib.y11();
 	this.instance.parent = this;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -1137,29 +1137,29 @@ lib.properties = {
 	webfonts: {},
 	manifest: [
 		{src:"images/不对哦0.png", id:"不对哦0"},
-		{src:"images/_11.png", id:"_11"},
-		{src:"images/_1.png", id:"_1"},
-		{src:"images/_22.png", id:"_22"},
-		{src:"images/_2.png", id:"_2"},
-		{src:"images/_33.png", id:"_33"},
-		{src:"images/_3.png", id:"_3"},
-		{src:"images/_44.png", id:"_44"},
-		{src:"images/_4.png", id:"_4"},
-		{src:"images/_55.png", id:"_55"},
-		{src:"images/_5.png", id:"_5"},
-		{src:"images/_66.png", id:"_66"},
-		{src:"images/_6.png", id:"_6"},
-		{src:"images/_77.png", id:"_77"},
-		{src:"images/_7.png", id:"_7"},
 		{src:"images/游戏第一关_.png", id:"游戏第一关"},
-		{src:"images/_88.png", id:"_88"},
-		{src:"images/_8.png", id:"_8"},
-		{src:"images/_99.png", id:"_99"},
-		{src:"images/_9.png", id:"_9"},
 		{src:"images/恭喜您0.png", id:"恭喜您0"},
 		{src:"images/归类完成0.png", id:"归类完成0"},
 		{src:"images/归类完成1.png", id:"归类完成1"},
 		{src:"images/归类完成2.png", id:"归类完成2"},
+		{src:"images/y11.png", id:"y11"},
+		{src:"images/y1.png", id:"y1"},
+		{src:"images/y22.png", id:"y22"},
+		{src:"images/y2.png", id:"y2"},
+		{src:"images/y33.png", id:"y33"},
+		{src:"images/y3.png", id:"y3"},
+		{src:"images/y44.png", id:"y44"},
+		{src:"images/y4.png", id:"y4"},
+		{src:"images/y55.png", id:"y55"},
+		{src:"images/y5.png", id:"y5"},
+		{src:"images/y66.png", id:"y66"},
+		{src:"images/y6.png", id:"y6"},
+		{src:"images/y77.png", id:"y77"},
+		{src:"images/y7.png", id:"y7"},
+		{src:"images/y88.png", id:"y88"},
+		{src:"images/y8.png", id:"y8"},
+		{src:"images/y99.png", id:"y99"},
+		{src:"images/y9.png", id:"y9"},
 		{src:"images/再试一次0.png", id:"再试一次0"},
 		{src:"images/再试一次1.png", id:"再试一次1"},
 		{src:"images/再试一次2.png", id:"再试一次2"},
