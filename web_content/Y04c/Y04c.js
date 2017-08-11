@@ -112,12 +112,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,201,62);
 p.nominalBounds = new cjs.Rectangle(0,0,201,62);
 
 
-(lib.游戏第三关 = function() {
-	this.initialize(img.游戏第三关);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,140,49);
-
-
 (lib.Bitmap2 = function() {
 	this.initialize(img.Bitmap2);
 }).prototype = p = new cjs.Bitmap();
@@ -1247,17 +1241,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,900,670);
 	this.shape_27.graphics.f("#000000").s().p("AhIA6IATgSIAAgxIgSAAIAAgKIAdAAIAAA9QAJAOAWABQApABArgCIgEAMQgsAAgngBQgYAAgKgRQgHAGgLAOgAALAxIAAg+QgPAXgaASIgIgJQAogbAPgpIgtAAIAAgLIBiAAIAAALIgoAAIgHARIAAAQIAFgHIAsAiIgJAKQgUgSgUgPIAAA9gAg/g+IAJgHQALANAKAPIgLAHIgTgcg");
 	this.shape_27.setTransform(104.5,82.7);
 
-	this.instance = new lib.游戏第三关();
-	this.instance.parent = this;
-	this.instance.setTransform(10,15);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(3));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(3));
 
 	// bg
-	this.instance_1 = new lib.Y04c_修改整体();
-	this.instance_1.parent = this;
+	this.instance = new lib.Y04c_修改整体();
+	this.instance.parent = this;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(3));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(3));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(450,335,900,670);
@@ -1278,7 +1268,6 @@ lib.properties = {
 		{src:"images/到积分兑换逛逛吧0.png", id:"到积分兑换逛逛吧0"},
 		{src:"images/到积分兑换逛逛吧1.png", id:"到积分兑换逛逛吧1"},
 		{src:"images/到积分兑换逛逛吧2.png", id:"到积分兑换逛逛吧2"},
-		{src:"images/游戏第三关_.png", id:"游戏第三关"},
 		{src:"images/Bitmap2.png", id:"Bitmap2"},
 		{src:"images/表现太棒0.png", id:"表现太棒0"},
 		{src:"images/Y04c_修改整体.png", id:"Y04c_修改整体"},

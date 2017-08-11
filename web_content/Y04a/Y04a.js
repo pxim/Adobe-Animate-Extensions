@@ -76,12 +76,6 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 p.nominalBounds = new cjs.Rectangle(0,0,486,252);
 
 
-(lib.游戏第一关 = function() {
-	this.initialize(img.游戏第一关);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,140,49);
-
-
 (lib.恭喜您0 = function() {
 	this.initialize(img.恭喜您0);
 }).prototype = p = new cjs.Bitmap();
@@ -1112,17 +1106,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,900,670);
 	this.shape_27.graphics.f("#000000").s().p("AgpA+QAVgUgBgjIAAhGIBaAAIAAB0QAAAQgPAAIgXAAIgCgMIAWABQAHAAAAgHIAAhoIhDAAIAAA7QAAArgYAWIgIgJgAABAzIAAgsIAtAAIAAAlIgjAAIAAAHgAALAjIAZAAIAAgTIgZAAgAg5ApQAFgFAAgIIAAgsIgQAAIAAgKIAbAAIAAA4IAQgNIABANIgbAVgAgFgEIAAgJIAYAAIAAgOIgUAAIAAgJIAUAAIAAgOIAKAAIAAAOIAUAAIAAAJIgUAAIAAAOIAZAAIAAAJgAg7g/IAIgHIAWAXIgJAJIgVgZg");
 	this.shape_27.setTransform(104.2,82.7);
 
-	this.instance = new lib.游戏第一关();
-	this.instance.parent = this;
-	this.instance.setTransform(10,15);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(2));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(2));
 
 	// bg
-	this.instance_1 = new lib.底框();
-	this.instance_1.parent = this;
+	this.instance = new lib.底框();
+	this.instance.parent = this;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(2));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(450,335,900,670);
@@ -1137,7 +1127,6 @@ lib.properties = {
 	webfonts: {},
 	manifest: [
 		{src:"images/不对哦0.png", id:"不对哦0"},
-		{src:"images/游戏第一关_.png", id:"游戏第一关"},
 		{src:"images/恭喜您0.png", id:"恭喜您0"},
 		{src:"images/归类完成0.png", id:"归类完成0"},
 		{src:"images/归类完成1.png", id:"归类完成1"},
