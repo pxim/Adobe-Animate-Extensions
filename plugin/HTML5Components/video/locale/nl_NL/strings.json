@@ -1,0 +1,14 @@
+{
+  "locale" : "nl_NL",
+  "language" : "nl",
+  "CATEGORY_VIDEO" : "Video",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "bron",
+  "PROP_AUTOPLAY" : "automatisch afspelen",
+  "PROP_CONTROLS" : "besturingselementen",
+  "PROP_MUTED" : "gedempt",
+  "PROP_LOOP" : "herhalen",
+  "PROP_POSTER" : "posterafbeelding　",
+  "PROP_PRElOAD" : "voorladen",
+  "PROP_CLASS" : "klasse"
+}

@@ -1,0 +1,14 @@
+{
+  "locale" : "es_ES",
+  "language" : "es",
+  "CATEGORY_VIDEO" : "Vídeo",
+  "DISP_NAME_VIDEO" : "Vídeo",
+  "PROP_SOURCE" : "origen",
+  "PROP_AUTOPLAY" : "reprod. automática",
+  "PROP_CONTROLS" : "controles",
+  "PROP_MUTED" : "silenciado",
+  "PROP_LOOP" : "reproducir indefinidamente",
+  "PROP_POSTER" : "imagen de póster",
+  "PROP_PRElOAD" : "carga previa",
+  "PROP_CLASS" : "clase"
+}

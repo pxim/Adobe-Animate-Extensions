@@ -1,0 +1,10 @@
+{
+  "locale" : "de_DE",
+  "language" : "de",
+  "DISP_NAME_RADIOSET" : "Optionsfelder",
+  "DISP_NAME_DATEPICKER" : "Datumsauswahl",
+  "PROP_LABEL" : "ü_[GOh] label",
+  "PROP_VISIBLE" : "ü_[GOi] visible",
+  "PROP_ITEMS" : "ü_[GOg] items",
+  "PROP_CLASS" : "ü_[GOf] class"
+}

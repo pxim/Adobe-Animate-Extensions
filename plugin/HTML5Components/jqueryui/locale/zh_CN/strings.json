@@ -1,0 +1,11 @@
+{
+  "locale" : "zh_CN",
+  "language" : "cn",
+  "CATEGORY_JQUERYUI" : "jQuery UI",
+  "DISP_NAME_RADIOSET" : "RadioSet",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "标签",
+  "PROP_VISIBLE" : "可见",
+  "PROP_ITEMS" : "项目",
+  "PROP_CLASS" : "类"
+}

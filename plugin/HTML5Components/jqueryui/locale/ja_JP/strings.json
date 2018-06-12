@@ -1,0 +1,11 @@
+{
+  "locale" : "ja_JP",
+  "language" : "jp",
+  "CATEGORY_JQUERYUI" : "jQuery UI",
+  "DISP_NAME_RADIOSET" : "ラジオセット",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "ラベル",
+  "PROP_VISIBLE" : "表示",
+  "PROP_ITEMS" : "アイテム",
+  "PROP_CLASS" : "クラス"
+}

@@ -1,0 +1,10 @@
+{
+  "locale" : "fr_FR",
+  "language" : "fr",
+  "DISP_NAME_RADIOSET" : "Jeu de cases d’option",
+  "DISP_NAME_DATEPICKER" : "Sélecteur de dates",
+  "PROP_LABEL" : "é_[GOh] label",
+  "PROP_VISIBLE" : "é_[GOi] visible",
+  "PROP_ITEMS" : "é_[GOg] items",
+  "PROP_CLASS" : "é_[GOf] class"
+}

@@ -1,0 +1,14 @@
+{
+  "locale" : "cs_CZ",
+  "language" : "cs",
+  "CATEGORY_VIDEO" : "Video",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "zdroj",
+  "PROP_AUTOPLAY" : "automaticky spustit",
+  "PROP_CONTROLS" : "ovládací prvky",
+  "PROP_MUTED" : "ztlumeno",
+  "PROP_LOOP" : "opakovat",
+  "PROP_POSTER" : "obrázek plakátu",
+  "PROP_PRElOAD" : "předem načíst",
+  "PROP_CLASS" : "třída"
+}

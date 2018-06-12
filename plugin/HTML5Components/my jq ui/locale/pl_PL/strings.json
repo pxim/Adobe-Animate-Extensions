@@ -1,0 +1,10 @@
+{
+  "locale" : "pl_PL",
+  "language" : "pl",
+  "DISP_NAME_RADIOSET" : "Zestaw przycisków opcji",
+  "DISP_NAME_DATEPICKER" : "Próbnik dat",
+  "PROP_LABEL" : "[GOh] Ł_label",
+  "PROP_VISIBLE" : "[GOi] Ł_visible",
+  "PROP_ITEMS" : "[GOg] Ł_items",
+  "PROP_CLASS" : "[GOf] Ł_class"
+}

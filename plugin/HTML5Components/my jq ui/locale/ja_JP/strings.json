@@ -1,0 +1,10 @@
+{
+  "locale" : "ja_JP",
+  "language" : "jp",
+  "DISP_NAME_RADIOSET" : "ラジオセット",
+  "DISP_NAME_DATEPICKER" : "日付ピッカー",
+  "PROP_LABEL" : "[GOh] 能_label",
+  "PROP_VISIBLE" : "[GOi] 能_visible",
+  "PROP_ITEMS" : "[GOg] 能_items",
+  "PROP_CLASS" : "[GOf] 能_class"
+}

@@ -1,0 +1,14 @@
+{
+  "locale" : "en_US",
+  "language" : "en",
+  "CATEGORY_VIDEO" : "Video",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "source",
+  "PROP_AUTOPLAY" : "autoplay",
+  "PROP_CONTROLS" : "controls",
+  "PROP_MUTED" : "muted",
+  "PROP_LOOP" : "loop",
+  "PROP_POSTER" : "poster image",
+  "PROP_PRElOAD" : "preload",
+  "PROP_CLASS" : "class"
+}

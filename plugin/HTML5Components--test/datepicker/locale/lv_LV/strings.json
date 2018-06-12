@@ -1,0 +1,10 @@
+{
+  "locale" : "$_[F2w] en_US",
+  "language" : "$_[F2v] en",
+  "DISP_NAME_RADIOSET" : "$_[F2u] RadioSet",
+  "DISP_NAME_DATEPICKER" : "$_[F2t] DatePicker",
+  "PROP_LABEL" : "$_[GOh] label",
+  "PROP_VISIBLE" : "$_[GOi] visible",
+  "PROP_ITEMS" : "$_[GOg] items",
+  "PROP_CLASS" : "$_[GOf] class"
+}

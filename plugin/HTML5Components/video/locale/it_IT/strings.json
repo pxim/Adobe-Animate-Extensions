@@ -1,0 +1,14 @@
+{
+  "locale" : "it_IT",
+  "language" : "it",
+  "CATEGORY_VIDEO" : "Video",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "sorgente",
+  "PROP_AUTOPLAY" : "esecuzione automatica",
+  "PROP_CONTROLS" : "controlli",
+  "PROP_MUTED" : "audio disattivato",
+  "PROP_LOOP" : "ripetizione ciclica",
+  "PROP_POSTER" : "immagine poster",
+  "PROP_PRElOAD" : "precaricato",
+  "PROP_CLASS" : "classe"
+}

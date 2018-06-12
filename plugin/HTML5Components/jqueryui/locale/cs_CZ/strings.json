@@ -1,0 +1,11 @@
+{
+  "locale" : "cs_CZ",
+  "language" : "cs",
+  "CATEGORY_JQUERYUI" : "Uživatelské rozhraní jQuery",
+  "DISP_NAME_RADIOSET" : "RadioSet",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "popisek",
+  "PROP_VISIBLE" : "viditelné",
+  "PROP_ITEMS" : "položky",
+  "PROP_CLASS" : "třída"
+}

@@ -1,0 +1,14 @@
+{
+  "locale" : "zh_CN",
+  "language" : "cn",
+  "CATEGORY_VIDEO" : "视频",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "源",
+  "PROP_AUTOPLAY" : "自动播放",
+  "PROP_CONTROLS" : "控制",
+  "PROP_MUTED" : "已静音",
+  "PROP_LOOP" : "循环",
+  "PROP_POSTER" : "海报图像",
+  "PROP_PRElOAD" : "预加载",
+  "PROP_CLASS" : "类"
+}

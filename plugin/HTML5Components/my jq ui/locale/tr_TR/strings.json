@@ -1,0 +1,10 @@
+{
+  "locale" : "tr_TR",
+  "language" : "tr",
+  "DISP_NAME_RADIOSET" : "RadioSet",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "[GOh] ğ_label",
+  "PROP_VISIBLE" : "[GOi] ğ_visible",
+  "PROP_ITEMS" : "[GOg] ğ_items",
+  "PROP_CLASS" : "[GOf] ğ_class"
+}

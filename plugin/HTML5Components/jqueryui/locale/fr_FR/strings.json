@@ -1,0 +1,11 @@
+{
+  "locale" : "fr_FR",
+  "language" : "fr",
+  "CATEGORY_JQUERYUI" : "IU JQuery",
+  "DISP_NAME_RADIOSET" : "Jeu de cases d’option",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "étiquette",
+  "PROP_VISIBLE" : "visible",
+  "PROP_ITEMS" : "éléments",
+  "PROP_CLASS" : "classe"
+}

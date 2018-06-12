@@ -1,0 +1,10 @@
+{
+  "locale" : "ru_RU",
+  "language" : "ru",
+  "DISP_NAME_RADIOSET" : "Радиоприемник",
+  "DISP_NAME_DATEPICKER" : "Выбор даты",
+  "PROP_LABEL" : "Я_[GOh] label",
+  "PROP_VISIBLE" : "Я_[GOi] visible",
+  "PROP_ITEMS" : "Я_[GOg] items",
+  "PROP_CLASS" : "Я_[GOf] class"
+}

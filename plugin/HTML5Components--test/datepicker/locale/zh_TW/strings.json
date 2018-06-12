@@ -1,0 +1,10 @@
+{
+  "locale" : "zh_TW",
+  "language" : "tw",
+  "DISP_NAME_RADIOSET" : "選項按鈕集合",
+  "DISP_NAME_DATEPICKER" : "日期選取器",
+  "PROP_LABEL" : "[GOh] 枯_label",
+  "PROP_VISIBLE" : "[GOi] 枯_visible",
+  "PROP_ITEMS" : "[GOg] 枯_items",
+  "PROP_CLASS" : "[GOf] 枯_class"
+}

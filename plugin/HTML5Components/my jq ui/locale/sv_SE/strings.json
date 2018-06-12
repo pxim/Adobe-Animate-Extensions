@@ -1,0 +1,10 @@
+{
+  "locale" : "sv_SE",
+  "language" : "se",
+  "DISP_NAME_RADIOSET" : "Alternativuppsättning",
+  "DISP_NAME_DATEPICKER" : "Datumväljare",
+  "PROP_LABEL" : "[GOh] å_label",
+  "PROP_VISIBLE" : "[GOi] å_visible",
+  "PROP_ITEMS" : "[GOg] å_items",
+  "PROP_CLASS" : "[GOf] å_class"
+}

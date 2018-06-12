@@ -1,0 +1,11 @@
+{
+  "locale" : "nl_NL",
+  "language" : "nl",
+  "CATEGORY_JQUERYUI" : "jQuery-gebruikersinterface",
+  "DISP_NAME_RADIOSET" : "Radioset",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "label",
+  "PROP_VISIBLE" : "zichtbaar",
+  "PROP_ITEMS" : "items",
+  "PROP_CLASS" : "klasse"
+}

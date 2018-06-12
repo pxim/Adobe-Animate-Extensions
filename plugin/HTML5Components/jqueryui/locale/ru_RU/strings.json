@@ -1,0 +1,11 @@
+{
+  "locale" : "ru_RU",
+  "language" : "ru",
+  "CATEGORY_JQUERYUI" : "Интерфейс пользователя jQuery",
+  "DISP_NAME_RADIOSET" : "RadioSet",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "метка",
+  "PROP_VISIBLE" : "видимый",
+  "PROP_ITEMS" : "элементы",
+  "PROP_CLASS" : "класс"
+}

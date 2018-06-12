@@ -1,0 +1,11 @@
+{
+  "locale" : "de_DE",
+  "language" : "de",
+  "CATEGORY_JQUERYUI" : "jQuery-Oberfläche",
+  "DISP_NAME_RADIOSET" : "Optionsfelder",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "Bezeichnung",
+  "PROP_VISIBLE" : "Sichtbar",
+  "PROP_ITEMS" : "Elemente",
+  "PROP_CLASS" : "Klasse"
+}

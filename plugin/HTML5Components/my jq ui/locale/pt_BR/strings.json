@@ -1,0 +1,10 @@
+{
+  "locale" : "pt_BR",
+  "language" : "br",
+  "DISP_NAME_RADIOSET" : "Rádio",
+  "DISP_NAME_DATEPICKER" : "SeletorDeDatas",
+  "PROP_LABEL" : "ã_[GOh] label",
+  "PROP_VISIBLE" : "ã_[GOi] visible",
+  "PROP_ITEMS" : "ã_[GOg] items",
+  "PROP_CLASS" : "ã_[GOf] class"
+}

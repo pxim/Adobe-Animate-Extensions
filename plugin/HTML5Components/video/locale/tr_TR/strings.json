@@ -1,0 +1,14 @@
+{
+  "locale" : "tr_TR",
+  "language" : "tr",
+  "CATEGORY_VIDEO" : "Video",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "kaynak",
+  "PROP_AUTOPLAY" : "otomatik oynat",
+  "PROP_CONTROLS" : "kontroller",
+  "PROP_MUTED" : "sessiz",
+  "PROP_LOOP" : "döngü",
+  "PROP_POSTER" : "poster görüntüsü",
+  "PROP_PRElOAD" : "önyükleme",
+  "PROP_CLASS" : "sınıf"
+}
