@@ -1,4 +1,11 @@
-# CreateJS-example
-使用Adobe Animate CC + CreateJS 做的一些案例
+# Adobe-Animate-Extensions
+自定义Adobe Animate CC 的HTML5插件 + CreateJS 做的一些案例（HTML5） 
 
-预览： http://seanpx.github.io/createjs-example/
+## example
+HTML5案例
+预览： http://seanin.github.io/Adobe-Animate-Extensions/example/
+
+## plugin
+HTML5插件
+
+
