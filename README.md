@@ -5,23 +5,21 @@
 HTML5案例
 
 
-
-
 ## plugin
 HTML5插件
 
 #### Canvas Component
-ScrollPane
++ScrollPane
 
 ##### Use
 打开fla参考使用
 
 #### DOM Component
-CIframe
-CTextarea
-CVideo
++CIframe
++CTextarea
++CVideo
 
-##### Installation
+##### **Installation**
 把 HTML5Components 文件夹（包括里面资源）放到 此目录 C:\Program Files\Adobe\Adobe Animate CC 2018\Common\Configuration 下面。
 
 完整目录：
