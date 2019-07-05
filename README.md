@@ -12,8 +12,14 @@ HTML5插件
 
 #### DOM Component
 + CIframe
-+ CTextarea
++ CTextArea
 + CVideo
++ CAudio
++ CButton
++ CDiv
++ CImage
++ CLink
++ CScript
 
 ##### **Installation**
 把 HTML5Components 文件夹（包括里面资源）放到 此目录 C:\Program Files\Adobe\Adobe Animate CC 2018\Common\Configuration 下面。
