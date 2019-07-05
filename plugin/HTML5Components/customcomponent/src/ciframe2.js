@@ -1,3 +1,10 @@
+/*
+ * @Description: iframe2
+ * @Author: 彭祥 (QQ:245803627)
+ * @Date: 2018-12-05 16:41:37
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2019-02-27 11:01:52
+ */
 
 (function($) {
 
@@ -7,13 +14,13 @@
 	// getCreateString
 	// getProperties
 	// getAttributes
-    $.anwidget("my.Iframe", {
+    $.anwidget("cu.Iframe", {
         options: {
 			'visible': true,
 			'position': 'absolute'
         },
-		_props: ["left", "top", "width", "height", "position", "transform-origin", "transform", "frameBorder", "scrolling", "border"],
-		_attrs: ["id", "src", "alt", "class"],
+		_props: ["left", "top", "width", "height", "position", "transform-origin", "transform", "border", "pointer-events", "background-color"],
+		_attrs: ["id", "src", "alt", "class", "frameborder", "scrolling", "marginheight", "marginwidth"],
 		// Return a unique ID with the prefix image
 		// _widgetID is a global declared in anwidget
 		// This id is used only if the user has not set any instance ID for the component in Animate CC

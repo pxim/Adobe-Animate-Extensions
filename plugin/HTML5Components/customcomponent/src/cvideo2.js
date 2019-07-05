@@ -1,6 +1,13 @@
+/*
+ * @Description: video2
+ * @Author: 彭祥 (QQ:245803627)
+ * @Date: 2018-12-05 16:41:37
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2019-02-27 11:02:47
+ */
 (function($) {    
 
-    $.anwidget("my.Video", {
+    $.anwidget("cu.Video", {
         options: {
             left: 0,
             top: 0,
@@ -9,9 +16,9 @@
             source: "",
             autoplay: true,
 			position: "absolute"
-        },
-		_props: ["left", "top", "width", "height", "position", "transform-origin", "transform"],
-		_attrs: ["id", "src", "controls", "autoplay", "loop", "class", "muted", "poster", "preload", "playsinline", "data-setup"],
+		},
+		_props: ["left", "top", "width", "height", "position", "transform-origin", "transform", "object-fit"],
+		_attrs: ["id", "src", "controls", "autoplay", "loop", "class", "muted", "poster", "preload", "playsinline", "data-setup", "webkit-playsinline", "x-webkit-airplay", "x5-playsinline", "x5-video-player-type", "x5-video-player-fullscreen", "x5-video-orientation"],
 		getCreateOptions: function() {
 			return $.extend(this.options, { 'id': "video" + _widgetID++ });
 		},
