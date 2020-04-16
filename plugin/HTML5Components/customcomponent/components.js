@@ -16,6 +16,7 @@
 				{"name": "PROP_alt", "variable": "alt", "type": "String", "default": "iframe"},
 				{"name": "PROP_visible", "variable": "visible", "type": "Boolean", "default": "true"},
 				{"name": "PROP_class", "variable": "class", "type": "String", "default": "ui-iframe"},
+				{"name": "PROP_display", "variable": "display", "type": "List", "default": "inline, none, block, inherit"},
 				{"name": "PROP_visibility", "variable": "visibility", "type": "List", "default": "visible, hidden, collapse, inherit"},
                 {"name": "PROP_z-index", "variable": "z-index", "type": "String", "default": "auto"},
 				{"name": "PROP_marginwidth", "variable": "marginwidth", "type": "String", "default": "0"},
@@ -125,6 +126,7 @@
 				{"name": "PROP_SOURCE", "variable": "src", "type": "Video Content Path", "default": ""},
 				{"name": "PROP_visible", "variable": "visible", "type": "Boolean", "default": "true"},
 				{"name": "PROP_CLASS", "variable": "class", "type": "String", "default": "video"},
+				{"name": "PROP_display", "variable": "display", "type": "List", "default": "inline, none, block, inherit"},
 				{"name": "PROP_visibility", "variable": "visibility", "type": "List", "default": "visible, hidden, collapse, inherit"},
 				{"name": "PROP_z-index", "variable": "z-index", "type": "String", "default": "auto"},
 				{"name": "PROP_AUTOPLAY", "variable": "autoplay", "type": "Boolean", "default": "true"},
@@ -186,6 +188,7 @@
 			"properties": [
 				{"name": "PROP_visible", "variable": "visible", "type": "Boolean", "default": "true"},
 				{"name": "PROP_class", "variable": "class", "type": "String", "default": "ui-div"},
+				{"name": "PROP_display", "variable": "display", "type": "List", "default": "inline, none, block, inherit"},
 				{"name": "PROP_visibility", "variable": "visibility", "type": "List", "default": "visible, hidden, collapse, inherit"},
 				{"name": "PROP_z-index", "variable": "z-index", "type": "String", "default": "auto"},
 				{"name": "PROP_pointer-events", "variable": "pointer-events", "type": "String", "default": "auto"},
@@ -193,9 +196,9 @@
 				{"name": "PROP_innerText", "variable": "innerText", "type": "String", "default": ""},
 				{"name": "PROP_overflow-x", "variable": "overflow-x", "type": "String", "default": "auto"},
 				{"name": "PROP_overflow-y", "variable": "overflow-y", "type": "String", "default": "auto"},
-				{"name": "PROP_fontFamily", "variable": "fontFamily", "type": "String", "default": "宋体"},
+				{"name": "PROP_fontFamily", "variable": "font-family", "type": "String", "default": "宋体"},
 				{"name": "PROP_fontColor", "variable": "color", "type": "String", "default": "#000000"},
-				{"name": "PROP_fontSize", "variable": "fontSize", "type": "String", "default": "14px"}
+				{"name": "PROP_fontSize", "variable": "font-size", "type": "String", "default": "14px"}
 			]
 		},
 		{
@@ -237,6 +240,7 @@
             	{"name": "PROP_BORDER", "variable": "border", "type": "Integer", "default": "0"},
             	{"name": "PROP_VISIBLE", "variable": "visible", "type": "Boolean", "default": "true"},
 				{"name": "PROP_CLASS", "variable": "class", "type": "String", "default": "ui-image"},
+				{"name": "PROP_display", "variable": "display", "type": "List", "default": "inline, none, block, inherit"},
 				{"name": "PROP_visibility", "variable": "visibility", "type": "List", "default": "visible, hidden, collapse, inherit"},
 				{"name": "PROP_z-index", "variable": "z-index", "type": "String", "default": "auto"},
                 {"name": "PROP_lowsrc", "variable": "lowsrc", "type": "String", "default": ""},
@@ -244,7 +248,37 @@
                 {"name": "PROP_cursor", "variable": "cursor", "type": "List", "default": "default, auto, crosshair, pointer, move, text, wait, help"}
 
 			]
-    	}
+    	},
+		{
+			"className": "cu.TextInput",
+			"displayName": "CTextInput",
+			"version": "1.0",
+			"source": "src/ctextinput.js",
+			"icon": "assets/SP_TextInput_Sm",
+			"dimensions": [100, 22],
+			"dependencies": [
+				{"src": "../lib/jquery-2.2.4.min.js"},
+				{"src": "../sdk/anwidget.js"}
+			],
+			"properties": [
+				{"name": "PROP_VALUE", "variable": "value", "type": "String", "default": ""},
+				{"name": "PROP_DISABLED", "variable": "disabled", "type": "Boolean", "default": "false"},
+				{"name": "PROP_VISIBLE", "variable": "visible", "type": "Boolean", "default": "true"},
+				{"name": "PROP_display", "variable": "display", "type": "List", "default": "inline, none, block, inherit"},
+				{"name": "PROP_visibility", "variable": "visibility", "type": "List", "default": "visible, hidden, collapse, inherit"},
+				{"name": "PROP_CLASS", "variable": "class", "type": "String", "default": "ui-textinput"},
+				{"name": "PROP_z-index", "variable": "z-index", "type": "String", "default": "auto"},
+				{"name": "PROP_pointer-events", "variable": "pointer-events", "type": "String", "default": "auto"},
+				{"name": "PROP_readonly", "variable": "readonly", "type": "String", "default": "readonly"},
+                {"name": "PROP_border", "variable": "border", "type": "Integer", "default": "0"},
+				{"name": "PROP_outline", "variable": "outline", "type": "String", "default": "none"},
+                {"name": "PROP_background-color", "variable": "background-color", "type": "String", "default": "transparent"},
+                {"name": "PROP_font-family", "variable": "font-family", "type": "String", "default": "宋体"},
+                {"name": "PROP_font-color", "variable": "color", "type": "String", "default": "#000000"},
+                {"name": "PROP_font-size", "variable": "font-size", "type": "String", "default": "14px"},
+				{"name": "PROP_text-align", "variable": "text-align", "type": "String", "default": "left"}
+			]
+		}
  	]
 }
 

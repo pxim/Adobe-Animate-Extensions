@@ -19,7 +19,7 @@
 			'visible': true,
 			'position': 'absolute'
         },
-		_props: ["left", "top", "width", "height", "position", "z-index", "transform-origin", "transform", "visibility", "border", "pointer-events", "background-color"],
+		_props: ["left", "top", "width", "height", "position", "z-index", "transform-origin", "transform", "display", "visibility", "border", "pointer-events", "background-color"],
 		_attrs: ["id", "src", "alt", "class", "frameborder", "scrolling", "marginheight", "marginwidth"],
 		// Return a unique ID with the prefix image
 		// _widgetID is a global declared in anwidget

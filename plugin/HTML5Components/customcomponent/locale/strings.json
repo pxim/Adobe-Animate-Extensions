@@ -74,6 +74,7 @@
 	"PROP_x5-video-player-fullscreen": "x5-video-player-fullscreen",
 	"PROP_x5-video-orientation"      : "x5-video-orientation",
 	"PROP_visibility" : "visibility",
+	"PROP_display"    : "display",
 
 	"PROP_innerText"  : "innerText",
 	"PROP_overflow-x" : "overflow-x",

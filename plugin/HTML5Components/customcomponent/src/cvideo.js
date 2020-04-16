@@ -17,7 +17,7 @@
 			visible: true,
 			position: "absolute"
         },
-		_props: ["left", "top", "width", "height", "position", "z-index", "transform-origin", "transform", "visibility"],
+		_props: ["left", "top", "width", "height", "position", "z-index", "transform-origin", "transform", "display", "visibility"],
 		_attrs: ["id", "src", "controls", "autoplay", "loop", "class", "muted", "poster"],
 		getCreateOptions: function() {
 			return $.extend(this.options, { 'id': "video" + _widgetID++ });

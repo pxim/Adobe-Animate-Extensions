@@ -5,7 +5,7 @@
             'visible': true,
             'position': 'absolute'
         },
-        _props: ["left", "top", "width", "height", "position", "z-index", "transform-origin", "transform", "pointer-events", "visibility", "cursor"],
+        _props: ["left", "top", "width", "height", "position", "z-index", "transform-origin", "transform", "pointer-events", "display", "visibility", "cursor"],
         _attrs: ["id", "src", "alt", "class", "border", "lowsrc"],
         getCreateOptions: function() {
             return $.extend(this.options, { 'id': "image" + _widgetID++ });

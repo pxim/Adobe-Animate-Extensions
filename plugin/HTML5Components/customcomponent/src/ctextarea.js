@@ -14,7 +14,7 @@
                 'text': "",
                 'position': 'absolute'
             },
-            _props: ["left", "top", "width", "height", "position", "z-index", "transform-origin", "transform", "visibility", "resize","outline","box-sizing","border","font-family","font-size"],
+            _props: ["left", "top", "width", "height", "position", "z-index", "transform-origin", "transform", "visibility", "resize","outline","box-sizing","border","font-family","font-size", "text-align"],
             _attrs: ["id", "disabled", "class", "readonly", "contenteditable"],
             getCreateOptions: function() {
                 return $.extend(this.options, { 'id': "textarea" + _widgetID++ });
