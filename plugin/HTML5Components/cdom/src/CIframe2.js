@@ -9,12 +9,12 @@
 (function($) {
 
 	// Register a component with the className: my.Image,
-	// and prototype with the following overrides 
+	// and prototype with the following overrides
 	// getCreateOptions
 	// getCreateString
 	// getProperties
 	// getAttributes
-    $.anwidget("cu.Iframe", {
+    $.anwidget("c.Iframe", {
         options: {
 			'visible': true,
 			'position': 'absolute'
@@ -40,6 +40,6 @@
 		// Set of configurable attributes
 		getAttributes: function() {
 			return this._attrs;
-		}    
-	});   
+		}
+	});
 })(jQuery);

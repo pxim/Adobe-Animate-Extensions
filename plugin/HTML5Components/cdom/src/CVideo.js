@@ -5,8 +5,8 @@
  * @LastEditors: Please set LastEditors
  * @LastEditTime: 2019-04-24 13:28:39
  */
-(function($) {    
-    $.anwidget("cu.Video", {
+(function($) {
+    $.anwidget("c.Video", {
         options: {
             left: 0,
             top: 0,
@@ -31,17 +31,17 @@
 		attach: function() {
 			if(this._attached)
 				return;
-			
+
 			this._superApply(arguments);
 			this._$div = $(this._element);
-			this._$this = this._$div.find('video');			
-			
-			this.update(true);			
+			this._$this = this._$div.find('video');
+
+			this.update(true);
 		},
 		detach: function() {
 			if(!this._$div)
 				return;
-			
+
 			this._$div.remove();
 			this._attached = false;
 			this._$div = null;
@@ -68,14 +68,14 @@
 
 			var updateSize = force || this._dirty["width"] || this._dirty["height"];
 			this.applyProperties(this._$div, force);
-			this.applyAttributes(this._$this, force);	
+			this.applyAttributes(this._$this, force);
 
 			if(updateSize) {
 				// Copy the width and height from parent
 				this._$this.css("width", this._$div.css("width"));
-				this._$this.css("height", this._$div.css("height"));								
-			}			
+				this._$this.css("height", this._$div.css("height"));
+			}
 		}
-    });   
+    });
 })(jQuery);
 

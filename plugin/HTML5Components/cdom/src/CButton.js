@@ -7,7 +7,7 @@
  */
 (function($) {
 
-    $.anwidget("cu.Button", {
+    $.anwidget("c.Button", {
         options: {
             'visible': true,
             'disabled': false,

@@ -5,9 +5,9 @@
  * @LastEditors: Please set LastEditors
  * @LastEditTime: 2019-02-27 11:02:47
  */
-(function($) {    
+(function($) {
 
-    $.anwidget("cu.Video", {
+    $.anwidget("c.Video", {
         options: {
             left: 0,
             top: 0,
@@ -97,5 +97,5 @@
 				this._$this.css("height", this._$div.css("height"));
 			}
 		}
-    });   
+    });
 })(jQuery);

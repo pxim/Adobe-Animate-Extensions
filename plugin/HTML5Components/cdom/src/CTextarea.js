@@ -6,8 +6,8 @@
  * @LastEditTime: 2019-04-01 14:28:12
  */
 (function($) {
-    
-        $.anwidget("cu.Textarea", {
+
+        $.anwidget("c.Textarea", {
             options: {
                 'visible': true,
                 'disabled': false,
@@ -36,5 +36,5 @@
             //         this._dirty["text"] = false;
             //     }
             // }
-        });   
+        });
     })(jQuery);

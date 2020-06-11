@@ -1,6 +1,6 @@
 (function($) {
 
-    $.anwidget("cu.TextInput", {
+    $.anwidget("c.TextInput", {
         options: {
 			'visible': true,
 			'disabled': false,

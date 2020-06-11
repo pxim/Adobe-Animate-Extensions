@@ -25,7 +25,7 @@
   "PROP_ALT": "alt",
   "PROP_SOURCE": "来源",
   "PROP_BORDER": "边框",
-  "CATEGORY_CUSTOM_COMPONENTS": "Custom Component",
+  "CATEGORY_CUSTOM_COMPONENTS": "CDom",
   "PROP_source": "source",
   "PROP_alt": "alt",
   "PROP_visible": "visible",
@@ -90,6 +90,6 @@
 
   "PROP_lowsrc"      : "lowsrc",
   "PROP_cursor"      : "cursor"
-  
-  
+
+
 }

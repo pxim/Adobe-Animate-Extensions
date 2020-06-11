@@ -1,10 +1,10 @@
 {
 	"category": "CATEGORY_CUSTOM_COMPONENTS",
 	"components": [{
-			"className": "cu.Iframe",
+			"className": "c.Iframe",
 			"displayName": "CIframe",
 			"version": "1.0",
-			"source": "src/ciframe.js",
+			"source": "src/CIframe.js",
 			"icon": "assets/SP_Image_Sm",
 			"dimensions": [100, 100],
 			"dependencies": [
@@ -29,10 +29,10 @@
             ]
 		},
     	{
-        	"className": "cu.Textarea",
+        	"className": "c.Textarea",
         	"displayName": "CTextarea",
         	"version": "1.0",
-        	"source": "src/ctextarea.js",
+        	"source": "src/CTextarea.js",
         	"icon": "assets/SP_Label_Sm",
         	"dimensions": [100, 22],
         	"dependencies": [
@@ -57,10 +57,10 @@
         	]
     	},
     	{
-        	"className": "cu.Audio",
+        	"className": "c.Audio",
         	"displayName": "CAudio",
         	"version": "1.0",
-        	"source": "src/caudio.js",
+        	"source": "src/CAudio.js",
         	"icon": "assets/SP_FLVPlayback_Sm",
         	"dimensions": [100, 22],
         	"dependencies": [
@@ -78,10 +78,10 @@
             ]
     	},
     	{
-        	"className": "cu.Video2",
+        	"className": "c.Video2",
         	"displayName": "CVideo2",
         	"version": "1.0",
-        	"source": "src/cvideo2.js",
+        	"source": "src/CVideo2.js",
         	"icon": "assets/SP_FLVPlayback_Sm",
 			"dimensions": [400, 300],
         	"dependencies": [
@@ -112,10 +112,10 @@
         	]
 		},
 		{
-			"className": "cu.Video",
+			"className": "c.Video",
 			"displayName": "CVideo",
 			"version": "1.0",
-			"source": "src/cvideo.js",
+			"source": "src/CVideo.js",
 			"icon": "assets/SP_FLVPlayback_Sm",
 			"dimensions": [100, 100],
 			"dependencies": [
@@ -138,10 +138,10 @@
 			]
 		},
 		{
-			"className": "cu.Link",
+			"className": "c.Link",
 			"displayName": "CLink",
 			"version": "1.0",
-			"source": "src/clink.js",
+			"source": "src/CLink.js",
 			"icon": "assets/SP_PL_CodeSample",
 			"dimensions": [100, 22],
 			"dependencies": [
@@ -155,10 +155,10 @@
 			]
 		},
 		{
-		   "className": "cu.Script",
+		   "className": "c.Script",
 		   "displayName": "CScript",
 		   "version": "1.0",
-		   "source": "src/cscript.js",
+		   "source": "src/CScript.js",
 		   "icon": "assets/SP_PL_CodeSample",
 		   "dimensions": [100, 22],
 		   "dependencies": [
@@ -175,10 +175,10 @@
 		   ]
 		},
 	   	{
-			"className": "cu.Div",
+			"className": "c.Div",
 			"displayName": "CDiv",
 			"version": "1.0",
-			"source": "src/cdiv.js",
+			"source": "src/CDiv.js",
 			"icon": "assets/SP_PL_CodeSample",
 			"dimensions": [100, 20],
 			"dependencies": [
@@ -202,10 +202,10 @@
 			]
 		},
 		{
-	 		"className": "cu.Button",
+	 		"className": "c.Button",
 	 		"displayName": "CButton",
 	 		"version": "1.0",
-	 		"source": "src/cbutton.js",
+	 		"source": "src/CButton.js",
 	 		"icon": "assets/SP_Button_Sm",
 	 		"dimensions": [100, 22],
 	 		"dependencies": [
@@ -224,10 +224,10 @@
 	 		]
  		},
 		{
-			"className": "cu.Image",
+			"className": "c.Image",
 			"displayName": "CImage",
 			"version": "1.0",
-			"source": "src/cimage.js",
+			"source": "src/CImage.js",
 			"icon": "assets/SP_Image_Sm",
 			"dimensions": [100, 100],
 			"dependencies": [
@@ -236,7 +236,8 @@
         	],
         	"properties": [
             	{"name": "PROP_SOURCE", "variable": "src", "type": "String", "default": ""},
-            	{"name": "PROP_ALT", "variable": "alt", "type": "String", "default": "image"},
+            	{"name": "PROP_ALT", "variable": "alt", "type": "String", "default": "alt"},
+				{"name": "title", "variable": "title", "type": "String", "default": "title"},
             	{"name": "PROP_BORDER", "variable": "border", "type": "Integer", "default": "0"},
             	{"name": "PROP_VISIBLE", "variable": "visible", "type": "Boolean", "default": "true"},
 				{"name": "PROP_CLASS", "variable": "class", "type": "String", "default": "ui-image"},
@@ -250,10 +251,10 @@
 			]
     	},
 		{
-			"className": "cu.TextInput",
+			"className": "c.TextInput",
 			"displayName": "CTextInput",
 			"version": "1.0",
-			"source": "src/ctextinput.js",
+			"source": "src/CTextinput.js",
 			"icon": "assets/SP_TextInput_Sm",
 			"dimensions": [100, 22],
 			"dependencies": [

@@ -1,12 +1,12 @@
 (function($) {
 
-    $.anwidget("cu.Image", {
+    $.anwidget("c.Image", {
         options: {
             'visible': true,
             'position': 'absolute'
         },
         _props: ["left", "top", "width", "height", "position", "z-index", "transform-origin", "transform", "pointer-events", "display", "visibility", "cursor"],
-        _attrs: ["id", "src", "alt", "class", "border", "lowsrc"],
+        _attrs: ["id", "src", "alt", "title", "class", "border", "lowsrc"],
         getCreateOptions: function() {
             return $.extend(this.options, { 'id': "image" + _widgetID++ });
         },

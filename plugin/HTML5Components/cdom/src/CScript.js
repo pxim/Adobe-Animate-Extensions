@@ -1,21 +1,20 @@
 /*
- * @Description: link
+ * @Description: script
  * @Author: 彭祥 (QQ:245803627)
  * @Date: 2018-12-05 16:41:37
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2019-02-27 11:01:55
+ * @LastEditTime: 2019-02-27 11:02:02
  */
-(function($) {    
+(function($) {
 
-    $.anwidget("cu.Link", {
+    $.anwidget("c.Script", {
         options: {
 			'visible': false
-        },
-		_attrs: ['rel', 'type', 'href'],
-		// Return the string for creating the DOM element
-		// For image we just need to create the <img> tag
-		getCreateString: function() {			
-			return "<link>";
+		},
+		//属性说明文档 http://www.w3school.com.cn/tags/tag_script.asp
+		_attrs: ['type', 'src', 'async', 'charset', 'defer', 'xml:space'],
+		getCreateString: function() {
+			return "<script>";
 		},
 		// Set of configurable properties
 		getProperties: function() {
@@ -24,6 +23,6 @@
 		// Set of configurable attributes
 		getAttributes: function() {
 			return this._attrs;
-		}    
-	});   
+		}
+	});
 })(jQuery);
