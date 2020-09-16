@@ -1,0 +1,11 @@
+{
+  "locale" : "en_US",
+  "language" : "en",
+  "CATEGORY_JQUERYUI" : "jQuery UI",
+  "DISP_NAME_RADIOSET" : "RadioSet",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "label",
+  "PROP_VISIBLE" : "visible",
+  "PROP_ITEMS" : "items",
+  "PROP_CLASS" : "class"
+}

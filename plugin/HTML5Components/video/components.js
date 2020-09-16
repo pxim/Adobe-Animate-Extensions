@@ -8,7 +8,7 @@
 			"icon": "assets/SP_FLVPlayback_Sm",
 			"dimensions": [400, 300],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [

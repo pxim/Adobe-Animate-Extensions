@@ -1,0 +1,11 @@
+{
+  "locale" : "it_IT",
+  "language" : "it",
+  "CATEGORY_JQUERYUI" : "Interfaccia utente jQuery",
+  "DISP_NAME_RADIOSET" : "Set pulsanti di scelta",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "etichetta",
+  "PROP_VISIBLE" : "visibile",
+  "PROP_ITEMS" : "elementi",
+  "PROP_CLASS" : "classe"
+}

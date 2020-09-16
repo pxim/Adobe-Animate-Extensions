@@ -1,0 +1,14 @@
+{
+  "locale" : "de_DE",
+  "language" : "de",
+  "CATEGORY_VIDEO" : "Video",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "Quelle",
+  "PROP_AUTOPLAY" : "Automatisch abspielen",
+  "PROP_CONTROLS" : "Steuerelemente",
+  "PROP_MUTED" : "Stummgeschaltet",
+  "PROP_LOOP" : "Schleife",
+  "PROP_POSTER" : "Posterbild ",
+  "PROP_PRElOAD" : "Vorausladen",
+  "PROP_CLASS" : "Klasse"
+}

@@ -33,6 +33,21 @@
 			
 			this.update(true);
 		},
+		detach: function() {
+			if(!this._$div)
+				return;
+			
+			this._$div.remove();
+			this._attached = false;
+			this._$div = null;
+			$(parent).trigger("detached", this.getEventData("detached"));
+		},
+		show: function() {
+			if(this._$div) this._$div.show();
+		},
+		hide: function() {
+			if(this._$div) this._$div.hide();
+		},
 		update: function(force) {
 			if(!this._$div)
 				return;

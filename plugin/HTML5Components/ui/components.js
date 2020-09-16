@@ -8,7 +8,7 @@
 			"icon": "assets/SP_Button_Sm",
 			"dimensions": [100, 22],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [
@@ -26,7 +26,7 @@
 			"icon": "assets/SP_Close_Sm",
 			"dimensions": [100, 22],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [
@@ -45,7 +45,7 @@
 			"icon": "assets/SP_ComboBoxEditable_Sm",
 			"dimensions": [100, 22],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [
@@ -65,7 +65,7 @@
 			"icon": "assets/SP_PL_CodeSample",
 			"dimensions": [100, 22],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [
@@ -80,13 +80,13 @@
 			"icon": "assets/SP_Image_Sm",
 			"dimensions": [100, 100],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [
 				{"name": "PROP_SOURCE", "variable": "src", "type": "Image Path", "default": ""},
 				{"name": "PROP_ALT", "variable": "alt", "type": "String", "default": "image"},
-				{"name": "PROP_BORDER", "variable": "border", "type": "Integer", "default": "0"},
+				{"name": "PROP_BORDER", "variable": "border", "type": "Number", "default": "0"},
 				{"name": "PROP_VISIBLE", "variable": "visible", "type": "Boolean", "default": "true"},
 				{"name": "PROP_CLASS", "variable": "class", "type": "String", "default": "ui-image"}						
 			]
@@ -99,7 +99,7 @@
 			"icon": "assets/SP_Label_Sm",
 			"dimensions": [100, 22],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [
@@ -117,7 +117,7 @@
 			"icon": "assets/SP_List_Sm",
 			"dimensions": [100, 100],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [
@@ -136,13 +136,13 @@
 			"icon": "assets/SP_NumericStepper_Sm",
 			"dimensions": [120, 22],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [
-				{"name": "PROP_VALUE", "variable": "value", "type": "Integer", "default": "0"},
-				{"name": "PROP_MIN", "variable": "min", "type": "Integer", "default": "0"},
-				{"name": "PROP_MAX", "variable": "max", "type": "Integer", "default": "10"},
+				{"name": "PROP_VALUE", "variable": "value", "type": "Number", "default": "0"},
+				{"name": "PROP_MIN", "variable": "min", "type": "Number", "default": "0"},
+				{"name": "PROP_MAX", "variable": "max", "type": "Number", "default": "10"},
 				{"name": "PROP_DISABLED", "variable": "disabled", "type": "Boolean", "default": "false"},
 				{"name": "PROP_VISIBLE", "variable": "visible", "type": "Boolean", "default": "true"},
 				{"name": "PROP_CLASS", "variable": "class", "type": "String", "default": "ui-numericstepper"}
@@ -156,7 +156,7 @@
 			"icon": "assets/SP_RadioButton_Sm",
 			"dimensions": [100, 22],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [
@@ -176,7 +176,7 @@
 			"icon": "assets/SP_TextInput_Sm",
 			"dimensions": [100, 22],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"}
 			],
 			"properties": [

@@ -1,0 +1,11 @@
+{
+  "locale" : "ko_KR",
+  "language" : "kr",
+  "CATEGORY_JQUERYUI" : "jQuery UI",
+  "DISP_NAME_RADIOSET" : "RadioSet",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "레이블",
+  "PROP_VISIBLE" : "표시 가능",
+  "PROP_ITEMS" : "항목",
+  "PROP_CLASS" : "클래스"
+}

@@ -1,0 +1,14 @@
+{
+  "locale" : "pl_PL",
+  "language" : "pl",
+  "CATEGORY_VIDEO" : "Wideo",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "Źródło",
+  "PROP_AUTOPLAY" : "Autoodtwarzanie",
+  "PROP_CONTROLS" : "Elementy sterujące",
+  "PROP_MUTED" : "Wyciszone",
+  "PROP_LOOP" : "Pętla",
+  "PROP_POSTER" : "Obraz plakatu",
+  "PROP_PRElOAD" : "Wstępne wczytywanie",
+  "PROP_CLASS" : "Klasa"
+}

@@ -8,7 +8,7 @@
 			"icon": "assets/radioset-icon.png",
 			"dimensions": [300, 64],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"},
 				{"src": "jquery-ui-1.12.0/jquery-ui.min.js", "cdn": "https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"},
 				{"src": "jquery-ui-1.12.0/jquery-ui.min.css", "cdn": "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"},
@@ -33,7 +33,7 @@
 			"icon": "assets/datepicker-icon.png",
 			"dimensions": [100, 22],
 			"dependencies": [
-				{"src": "../lib/jquery-2.2.4.min.js", "cdn": "https://code.jquery.com/jquery-2.2.4.min.js"},
+				{"src": "../lib/jquery-3.4.1.min.js", "cdn": "https://code.jquery.com/jquery-3.4.1.min.js"},
 				{"src": "../sdk/anwidget.js"},
 				{"src": "jquery-ui-1.12.0/jquery-ui.min.js", "cdn": "https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"},
 				{"src": "jquery-ui-1.12.0/jquery-ui.min.css", "cdn": "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"},

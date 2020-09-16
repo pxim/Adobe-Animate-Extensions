@@ -1,0 +1,14 @@
+{
+  "locale" : "ko_KR",
+  "language" : "kr",
+  "CATEGORY_VIDEO" : "비디오",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "소스",
+  "PROP_AUTOPLAY" : "자동 재생",
+  "PROP_CONTROLS" : "컨트롤",
+  "PROP_MUTED" : "음소거됨",
+  "PROP_LOOP" : "루프",
+  "PROP_POSTER" : "포스터 이미지",
+  "PROP_PRElOAD" : "미리 로드",
+  "PROP_CLASS" : "클래스"
+}

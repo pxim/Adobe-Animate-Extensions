@@ -1,0 +1,14 @@
+{
+  "locale" : "sv_SE",
+  "language" : "se",
+  "CATEGORY_VIDEO" : "Video",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "källa",
+  "PROP_AUTOPLAY" : "spela upp automatiskt",
+  "PROP_CONTROLS" : "kontroller",
+  "PROP_MUTED" : "dämpad ",
+  "PROP_LOOP" : "loop",
+  "PROP_POSTER" : "Affischbild",
+  "PROP_PRElOAD" : "förhandsinläsning",
+  "PROP_CLASS" : "klass"
+}

@@ -1,0 +1,14 @@
+{
+  "locale" : "zh_TW",
+  "language" : "tw",
+  "CATEGORY_VIDEO" : "視訊",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "來源",
+  "PROP_AUTOPLAY" : "自動播放",
+  "PROP_CONTROLS" : "控制",
+  "PROP_MUTED" : "已靜音",
+  "PROP_LOOP" : "重複",
+  "PROP_POSTER" : "海報影像",
+  "PROP_PRElOAD" : "預先載入",
+  "PROP_CLASS" : "類別"
+}

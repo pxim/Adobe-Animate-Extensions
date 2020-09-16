@@ -1,0 +1,11 @@
+{
+  "locale" : "zh_TW",
+  "language" : "tw",
+  "CATEGORY_JQUERYUI" : "jQuery 使用者介面",
+  "DISP_NAME_RADIOSET" : "RadioSet",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "標籤",
+  "PROP_VISIBLE" : "可見",
+  "PROP_ITEMS" : "項目",
+  "PROP_CLASS" : "類別"
+}

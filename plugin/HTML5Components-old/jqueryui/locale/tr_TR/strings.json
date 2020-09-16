@@ -1,0 +1,11 @@
+{
+  "locale" : "tr_TR",
+  "language" : "tr",
+  "CATEGORY_JQUERYUI" : "jQuery Kullanıcı Arabirimi",
+  "DISP_NAME_RADIOSET" : "RadioSet",
+  "DISP_NAME_DATEPICKER" : "DatePicker",
+  "PROP_LABEL" : "etiket",
+  "PROP_VISIBLE" : "görünür",
+  "PROP_ITEMS" : "öğe",
+  "PROP_CLASS" : "sınıf"
+}

@@ -1,0 +1,14 @@
+{
+  "locale" : "ru_RU",
+  "language" : "ru",
+  "CATEGORY_VIDEO" : "Видео",
+  "DISP_NAME_VIDEO" : "Видео",
+  "PROP_SOURCE" : "источник",
+  "PROP_AUTOPLAY" : "автозапуск",
+  "PROP_CONTROLS" : "элементы управления",
+  "PROP_MUTED" : "без звука",
+  "PROP_LOOP" : "цикл",
+  "PROP_POSTER" : "изображение постера",
+  "PROP_PRElOAD" : "начальная загрузка",
+  "PROP_CLASS" : "класс"
+}

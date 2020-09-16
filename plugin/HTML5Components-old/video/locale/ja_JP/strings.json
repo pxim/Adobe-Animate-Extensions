@@ -1,0 +1,14 @@
+{
+  "locale" : "ja_JP",
+  "language" : "jp",
+  "CATEGORY_VIDEO" : "ビデオ",
+  "DISP_NAME_VIDEO" : "Video",
+  "PROP_SOURCE" : "ソース",
+  "PROP_AUTOPLAY" : "自動再生",
+  "PROP_CONTROLS" : "コントロール",
+  "PROP_MUTED" : "ミュート",
+  "PROP_LOOP" : "ループ",
+  "PROP_POSTER" : "ポスター画像　",
+  "PROP_PRElOAD" : "プリロード",
+  "PROP_CLASS" : "クラス"
+}
