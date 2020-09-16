@@ -3,9 +3,11 @@
 
 文档地址：https://mp.weixin.qq.com/s/3YQiNlTTyBk6Cspnoih_LQ
 
-## plugin
+## extension
 
-HTML5插件
+Adobe Animate 插件 
+
+1. HTML5Components：HTML5 Canvas项目 插件
 
 #### DOM Component
 
@@ -47,18 +49,11 @@ HTML5插件
 参考链接
 
 >  https://www.w3school.com.cn/tags/tag_doctype.asp
-
-
-
-#### Canvas Component
-
-+ ScrollPane
-
-##### Use
-打开对应组件文件夹里的fla参考使用
-
-
+>
+>  
 
 
 ## example
-HTML5案例
+HTML5案例（ 打开对应组件文件夹里的fla参考使用 ）  
+
+- ScrollPane      滚动条动画
